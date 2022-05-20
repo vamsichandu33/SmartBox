@@ -1,0 +1,40 @@
+/**@media screen and (max-width: 767px) {
+.pull-right{float: none !important;}
+}*/
+.navbar {
+	position: absolute;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+padding-top: .5rem;
+padding-bottom: .5rem;
+z-index: 9;
+width: 100%;
+color: black;
+}
+.carousel-caption{
+	
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-18%);
+    text-align: center;
+    color: #fff;
+   
+}
+.rounded-circle{
+	height: 80px;
+	width: 100px;
+	margin-top: 35px;
+
+}
+.carousel-item{
+	height:500px;
+} 
+.carousel-indicators button {
+	height: 10px !important;
+   width: 10px !important;
+   border-radius: 55% !important;
+}
+
